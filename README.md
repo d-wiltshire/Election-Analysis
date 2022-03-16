@@ -29,7 +29,7 @@ Election-Audit Results: Using a bulleted list, address the following election ou
   - Diana DeGette won the election, with 272,892 votes (73.8% of the total votes).
 
 
-##Election Audit Summary:
+## Election Audit Summary:
 
 This script was successful in evaluating the election results to identify the number and percentage of votes relative to the candidate and the county. It could be easily adapted for use in other elections. None of the candidate or county names are hard-coded into the script; the program derives the names of both the candidates and counties using an index. That is to say, the candidates are specified as being the third item in each list, while the counties are specified as being the second item in the list, and this program could be used as-is for any data input where the candidate's name is already included third (and the county second) in the "list" of information associated with each vote.
 
