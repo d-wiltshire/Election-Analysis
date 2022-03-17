@@ -6,8 +6,6 @@ The purpose of this election audit analysis was to create a program that would r
 
 The following is a screenshot of the program run on the command line: 
 
-!(https://user-images.githubusercontent.com/100863488/158887910-03d06c95-8f62-477e-a268-5ebda81c41a1.png)
-
 ![Module 3 print to command line](https://user-images.githubusercontent.com/100863488/158888331-66dad3fc-5c84-432d-ad0b-fe6f84098ca8.png)
 
 
