@@ -27,7 +27,8 @@ The following is a screenshot of the program run on the command line:
 - Which county had the largest number of votes?
   - Denver County, with 306,055 votes, had the largest number of votes.
   - The county with the largest number of votes was also determined with a for loop. I initialized two sets of variables to count candidate and county votes. The variables without the "1" (like `votes`) refer to counting candidate votes, and the variables with "1" (as in `votes1`) were used for tracking county votes.
-  ```
+ 
+```
   for county_name in county_votes:
 
         # 6b: Retrieve the county vote count.
@@ -50,11 +51,16 @@ The following is a screenshot of the program run on the command line:
             winning1_percentage = vote1_percentage
 ```
 
+
+
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
   - Charles Casper Stockham: 23.0% (85,213 votes)
   - Diana DeGette: 73.8% (272,892 votes)
   - Raymon Anthony Doane: 3.1% (11,606 votes)
   - This information was gathered with a similar for loop:
+
+
+
   
 ```
  for candidate_name in candidate_votes:
