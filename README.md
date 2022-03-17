@@ -6,7 +6,7 @@ The purpose of this election audit analysis was to create a program that would r
 
 The following is a screenshot of the program run on the command line: 
 
-[Module 3 print to command line](https://user-images.githubusercontent.com/100863488/158887910-03d06c95-8f62-477e-a268-5ebda81c41a1.png)
+!(https://user-images.githubusercontent.com/100863488/158887910-03d06c95-8f62-477e-a268-5ebda81c41a1.png)
 
 
 
@@ -49,13 +49,14 @@ The following is a screenshot of the program run on the command line:
             votes_in_largest_county_turnout = votes1
             county_with_largest_turnout = county_name
             winning1_percentage = vote1_percentage
-            ```
+```
 
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
   - Charles Casper Stockham: 23.0% (85,213 votes)
   - Diana DeGette: 73.8% (272,892 votes)
   - Raymon Anthony Doane: 3.1% (11,606 votes)
   - This information was gathered with a similar for loop:
+  
 ```
  for candidate_name in candidate_votes:
 
@@ -76,7 +77,7 @@ The following is a screenshot of the program run on the command line:
             winning_count = votes
             winning_candidate = candidate_name
             winning_percentage = vote_percentage
-            ```
+```
 
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
   - Diana DeGette won the election, with 272,892 votes (73.8% of the total votes).
